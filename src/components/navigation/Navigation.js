@@ -16,19 +16,19 @@ const Navigation = ({setTab}) => {
             <Box container className={cls.NavContainer} spacing={7}>
                 <Box className={cls.NavItem} onClick={()=>setTab(0)}>
                     <HomeOutlinedIcon className={cls.icons}/>
-                    <Typography className={cls.sections}>Home</Typography>
+                    <Typography variant='caption' className={cls.sections}>Home</Typography>
                 </Box>
                 <Box className={cls.NavItem} onClick={()=>setTab(1)}>
                     <PermIdentityIcon className={cls.icons}/>
-                    <Typography className={cls.sections}>About</Typography>
+                    <Typography variant='caption' className={cls.sections}>About</Typography>
                 </Box>
                 <Box className={cls.NavItem} onClick={()=>setTab(2)}>
                     <WorkOutlineIcon className={cls.icons}/>
-                    <Typography className={cls.sections}>Works</Typography>
+                    <Typography variant='caption' className={cls.sections}>Works</Typography>
                 </Box>
                 <Box className={cls.NavItem} onClick={()=>setTab(3)}>
                     <PermContactCalendarOutlinedIcon className={cls.icons}/>
-                    <Typography className={cls.sections}>Contact</Typography>
+                    <Typography variant='caption' className={cls.sections}>Contact</Typography>
                 </Box>
             </Box>
         </Box>

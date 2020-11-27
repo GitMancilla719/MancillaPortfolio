@@ -40,7 +40,7 @@ export const NavStyle = makeStyles({
     },
     sections : {
         color : '#FFFFFF',
-        fontSize : '10pt',
+        //fontSize : '8pt',
         transition : '0.5s',
     }
 })
