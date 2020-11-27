@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import { makeStyles, Grow, Box } from '@material-ui/core'
+import React, {useState} from 'react'
+import { makeStyles } from '@material-ui/core'
 import Navigation from './components/navigation/Navigation'
 import Home from './components/home/Home'
 import About from './components/about/About'
@@ -22,11 +22,9 @@ const appStyle = makeStyles(theme => ({
       backgroundSize : 'cover',
       [theme.breakpoints.between(600,959)]: {         
         height : 'auto',
-        //backgroundColor : 'brown'
       },
       [theme.breakpoints.down('xs')]: {         
         height : 'auto',
-        //backgroundSize : 'cover'
       }
   }
 }))
@@ -146,9 +144,6 @@ function App() {
   const cls = appStyle()
   const [tabSelect, setTab] = useState(0)
 
-  const handleSelect = (selectedIndex, e) => {
-    setTab(selectedIndex);
-  };
   return (  
     <div className={cls.main}>
 

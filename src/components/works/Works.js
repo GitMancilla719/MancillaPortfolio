@@ -2,7 +2,6 @@ import React from 'react'
 import { Box, Typography, Grid, Button } from '@material-ui/core'
 import { Flip   } from 'react-reveal'
 import {WorksStyle} from './Works.style'
-import TempoThumb from '../../assets/tempoThumb.png'
 import covidtracker from '../../assets/cvd-tracker.jpg'
 import viewBtn from '../../assets/viewbutton.png'
 import gitBtn from '../../assets/gitbutton.png'
@@ -17,12 +16,7 @@ const Works = () => {
           description : [<p className={cls.tools}>ReactJS</p>,<p className={cls.tools}>Material-UI</p>,<p className={cls.tools}>Redux</p>,<p className={cls.tools}>Covid API</p>,], 
           github : '', 
           demo : ''
-        },
-        
-        
-        // { image : covidtracker, title : 'Covid Tracker', description : ['ReactJS', 'Material-UI', 'Redux', 'Covid API'], github : '', demo : ''},
-        // { image : TempoThumb, title : 'Project Name', description : 'Project Description', github : '', demo : ''},
-        // { image : TempoThumb, title : 'Project Name', description : 'Project Description', github : '', demo : ''},
+        }
     ]
         
     return (
