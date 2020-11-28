@@ -14,8 +14,8 @@ const Works = () => {
         { image : covidtracker, 
           title : 'Covid Tracker', 
           description : [<p className={cls.tools}>ReactJS</p>,<p className={cls.tools}>Material-UI</p>,<p className={cls.tools}>Redux</p>,<p className={cls.tools}>Covid API</p>,], 
-          github : '', 
-          demo : ''
+          github : 'https://github.com/GitMancilla719/CovidTrackerProject', 
+          demo : 'https://coronovirustracker.netlify.app/'
         }
     ]
         
