@@ -4,6 +4,7 @@ import { Flip } from 'react-reveal'
 import { WorksStyle } from './Works.style'
 import covidtracker from '../../assets/cvd-tracker.jpg'
 import jbgh from '../../assets/JBGH.jpg'
+import KickNiks from '../../assets/KickNiks.jpg'
 import viewBtn from '../../assets/viewbutton.png'
 import gitBtn from '../../assets/gitbutton.png'
 
@@ -34,6 +35,18 @@ const Works = () => {
       ],
       github: 'https://github.com/GitMancilla719/JOBSbyGH',
       demo: 'https://jobsbygithub.netlify.app/',
+    },
+    {
+      image: KickNiks,
+      title: 'KickNiks Shoe Store',
+      description: [
+        <p className={cls.tools}>Under Construction</p>,
+        <p className={cls.tools}>ReactJS</p>,
+        <p className={cls.tools}>Node</p>,
+        <p className={cls.tools}>MongoDB</p>,
+      ],
+      github: 'https://github.com/GitMancilla719/KickNiks-Client',
+      demo: '',
     },
   ]
 

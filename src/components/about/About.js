@@ -14,6 +14,7 @@ import psLogo from '../../assets/8.png'
 import reduxLogo from '../../assets/9.png'
 import nodeLogo from '../../assets/10.png'
 import mongoLogo from '../../assets/11.png'
+import mysqlLogo from '../../assets/12.png'
 
 const About = () => {
   const cls = AboutStyle()
@@ -34,6 +35,7 @@ const About = () => {
   const BackEndPics = [
     { tech: nodeLogo, title: 'NodeJS' },
     { tech: mongoLogo, title: 'MongoDB' },
+    { tech: mysqlLogo, title: 'MySQL' },
   ]
 
   return (
@@ -62,7 +64,7 @@ const About = () => {
             <Typography className={clsx(cls.text, cls.textAbout)}>
               I am fairly knowledgeable in the ff:
               <ul>
-                <li>Development using the MERN stack</li>
+                <li>Development using the (M)ERN stack</li>
                 <li>Creating and consuming of REST API’s</li>
                 <li>
                   Database technologies
